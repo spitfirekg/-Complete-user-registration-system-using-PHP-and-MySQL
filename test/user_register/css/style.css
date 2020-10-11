@@ -1,0 +1,110 @@
+/* GLOBAL CSS */
+body{
+  background-color: lightyellow;
+}
+input{
+  color:red;
+  font-weight: bold;
+}
+/* header */
+.container-header{
+  font-family: 'Commissioner', sans-serif;
+  position: absolute;
+  top:0;
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+  height: 100px;
+  text-align: center;
+  background-color: gray;
+  color:white;
+  border-bottom-left-radius: 1em;
+  border-bottom-right-radius: 1em;
+}
+
+
+/* footer */
+.container-footer{
+  font-family: 'Commissioner', sans-serif;
+  position: absolute;
+  bottom: 0;
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+  height: 50px;
+  text-align: center;
+  background-color: gray;
+  color:white;
+  border-top-left-radius: 1em;
+  border-top-right-radius: 1em;
+}
+
+
+/*  index  */
+.container{
+  background-color: gray;
+  width: 40%;
+  height: 400px;
+  margin-left: 30%;
+  margin-right: 30%;
+  margin-top: 10%;
+  border-radius: 1em;
+}
+.label-container{
+  font-family: 'Commissioner', sans-serif;
+  width: 40%;
+  height: 75%;
+  text-align: right;
+  color:white;
+  float: left;
+}
+.form-container{
+  width: 59%;
+  height: 75%;
+  text-align: right;
+  color:white;
+  float: right;
+}
+.input-register{
+  width: 80%;
+  text-align: right;
+  margin-right: 10%;
+  margin-top: 5.7%;
+  box-shadow: 0px 0px 5px white;
+  border:none;
+}
+.input-register-btn{
+  width: 30%;
+  margin-top: 2%;
+  margin-right: 10%;
+  background-color: black;
+  color:white;
+  border:none;
+  padding:1%;
+  border-radius: 0.5em;
+  transition: background-color 0.3s;
+
+}
+.input-register-btn:hover{
+  background-color: lightgreen;
+  color:black;
+  transition: background-color 0.3s;
+}
+.error{
+  position: absolute;
+  top: 0;
+  right: 0;
+  color:red;
+  font-weight: bold;
+  margin-right: 13%;
+  margin-top: 15%;
+  height: 300px;
+  overflow: auto;
+}
+.text-center{
+  color: white;
+  text-align: center;
+  padding-top:2%;
+  padding-bottom: 2%;
+  font-family: 'Commissioner', sans-serif;
+}
